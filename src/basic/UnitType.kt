@@ -8,11 +8,9 @@ package basic
  * Unit은 싱글톤이기때문에 매번 객체를 생성하지는 않는다.
  */
 fun main(args: Array<String>){
-
     celsiusToFah(27)
 }
 
 fun celsiusToFah(celsius: Int): Unit{
-
     println(celsius * 1.8 + 32)
 }
