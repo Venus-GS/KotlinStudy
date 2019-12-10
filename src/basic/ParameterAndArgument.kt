@@ -11,11 +11,9 @@ fun main(args: Array<String>){
 }
 
 fun cToF(celsius: Int) : Double{
-
     return celsius * 1.8 + 32
 }
 
 fun getAverage(a: Int, b: Int): Double{
-
     return (a + b) / 2.0
 }
